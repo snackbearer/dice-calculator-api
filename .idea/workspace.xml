@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98813219-8197-4cce-8e6a-6e24672cd618" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DiceCalculatorFastAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postgres/init/001_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postgres/init/002_lookup_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postgres/init/003_seed_methods.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postgres/init/004_sample_materials.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postgres/init/docker-entrypoint-initdb.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="35" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FastAPI main" />
+        <option value="FastAPI test_main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.223526799370672" />
+      <entry key="MS500" value="5.976029223717626" />
+      <entry key="S2" value="11.765599678129348" />
+      <entry key="S5" value="16.67073126890354" />
+      <entry key="S10" value="20.803931517280486" />
+      <entry key="S30" value="28.037350721977734" />
+      <entry key="S60" value="31.427145920555457" />
+      <entry key="M2" value="33.53921262804482" />
+      <entry key="M5" value="34.969885544519215" />
+      <entry key="M10" value="35.47695333099091" />
+      <entry key="M15" value="35.649518237031906" />
+      <entry key="M30" value="35.864202623195425" />
+      <entry key="H1" value="38.781230177567586" />
+      <entry key="H2" value="63.62281503897406" />
+      <entry key="H4" value="125.52388475650883" />
+      <entry key="D1" value="280.5905129863512" />
+      <entry key="W1" value="327.3549704174805" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="6.735813931312217E-270" />
+      <entry key="S60" value="2.5953446652250713E-135" />
+      <entry key="M2" value="5.094452537049534E-68" />
+      <entry key="M5" value="1.2101494511800815E-27" />
+      <entry key="M10" value="3.4787202405196146E-14" />
+      <entry key="M15" value="1.0656461070022952E-9" />
+      <entry key="M30" value="3.264423543295659E-5" />
+      <entry key="H1" value="0.005713513405336217" />
+      <entry key="H2" value="0.07558778608569114" />
+      <entry key="H4" value="0.2749323300117511" />
+      <entry key="D1" value="0.806376077922155" />
+      <entry key="W1" value="0.9697241996255568" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.105639984846445" />
+      <entry key="MS500" value="5.910422587854674" />
+      <entry key="S2" value="11.714130608362689" />
+      <entry key="S5" value="16.625939555286948" />
+      <entry key="S10" value="20.772572313146682" />
+      <entry key="S30" value="28.02356149240332" />
+      <entry key="S60" value="31.41965679732885" />
+      <entry key="M2" value="33.53529832759345" />
+      <entry key="M5" value="34.96827587442001" />
+      <entry key="M10" value="35.47614087831371" />
+      <entry key="M15" value="35.64897488744591" />
+      <entry key="M30" value="35.86396261020147" />
+      <entry key="H1" value="38.7868017329213" />
+      <entry key="H2" value="63.69830410616396" />
+      <entry key="H4" value="125.79873028669851" />
+      <entry key="D1" value="281.39685816178013" />
+      <entry key="W1" value="328.3246894793388" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GbisZ2cp34ar5JwDklPHzzeyXp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "FastAPI.DiceCalculatorFastAPI.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/kevin/PycharmProjects/DiceCalculatorFastAPI/app/models",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kevin\PycharmProjects\DiceCalculatorFastAPI\app\models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kevin\PycharmProjects\DiceCalculatorFastAPI" />
+      <recent name="C:\Users\kevin\PycharmProjects\DiceCalculatorFastAPI\app\models" />
+      <recent name="C:\Users\kevin\PycharmProjects\DiceCalculatorFastAPI\app\models\dice_job" />
+      <recent name="C:\Users\kevin\PycharmProjects\DiceCalculatorFastAPI\app\services" />
+      <recent name="C:\Users\kevin\PycharmProjects\DiceCalculatorFastAPI\app\repositories" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DiceCalculatorFastAPI" type="Python.FastAPI">
+      <option name="file" value="$PROJECT_DIR$/main.py" />
+      <module name="DiceCalculatorFastAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98813219-8197-4cce-8e6a-6e24672cd618" name="Changes" comment="" />
+      <created>1784246876704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784246876704</updated>
+      <workItem from="1784246877726" duration="11292000" />
+      <workItem from="1784523527884" duration="7539000" />
+      <workItem from="1784589335654" duration="11516000" />
+      <workItem from="1784854831733" duration="2909000" />
+      <workItem from="1785111405604" duration="2531000" />
+      <workItem from="1785126926805" duration="1887000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DiceCalculatorFastAPI$DiceCalculatorFastAPI.coverage" NAME="DiceCalculatorFastAPI Coverage Results" MODIFIED="1784533178036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

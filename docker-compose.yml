@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: dicejobmanager-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: dicejobmanager
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - dicejobmanager-data:/var/lib/postgresql/data
+
+    # Run all SQL files on first startup
+      - ./postgres/init:/docker-entrypoint-initdb.d
+
+volumes:
+  dicejobmanager-data:
