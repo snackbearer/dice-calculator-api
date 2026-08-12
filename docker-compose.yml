@@ -1,22 +1,30 @@
 services:
-  postgres:
-    image: postgres:17
-    container_name: dicejobmanager-postgres
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dicejobmanager-app
     restart: unless-stopped
-
-    environment:
-      POSTGRES_DB: dicejobmanager
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-
+    # No local postgres dependency: connect to external DB via env/config
+    env_file:
+      - .env
+    secrets:
+      - aws_access_key_id
+      - aws_secret_access_key
+      - aws_session_token
     ports:
-      - "5432:5432"
-
+      - "8001:8000"
     volumes:
-      - dicejobmanager-data:/var/lib/postgresql/data
-
-    # Run all SQL files on first startup
-      - ./postgres/init:/docker-entrypoint-initdb.d
+      - ./:/app
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 volumes:
   dicejobmanager-data:
+
+secrets:
+  aws_access_key_id:
+    file: ./secrets/aws_access_key_id
+  aws_secret_access_key:
+    file: ./secrets/aws_secret_access_key
+  aws_session_token:
+    file: ./secrets/aws_session_token

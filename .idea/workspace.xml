@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98813219-8197-4cce-8e6a-6e24672cd618" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DiceCalculatorFastAPI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postgres/init/001_schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postgres/init/002_lookup_data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postgres/init/003_seed_methods.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postgres/init/004_sample_materials.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postgres/init/docker-entrypoint-initdb.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+    <list default="true" id="98813219-8197-4cce-8e6a-6e24672cd618" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DiceCalculatorFastAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DiceCalculatorFastAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +31,41 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;snackbearer&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/snackbearer/dice-calculator-api&quot;,
+    &quot;accountId&quot;: &quot;5b4237bd-1633-4c06-977c-eab4afc45ebc&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.223526799370672" />
-      <entry key="MS500" value="5.976029223717626" />
-      <entry key="S2" value="11.765599678129348" />
-      <entry key="S5" value="16.67073126890354" />
-      <entry key="S10" value="20.803931517280486" />
-      <entry key="S30" value="28.037350721977734" />
-      <entry key="S60" value="31.427145920555457" />
-      <entry key="M2" value="33.53921262804482" />
-      <entry key="M5" value="34.969885544519215" />
-      <entry key="M10" value="35.47695333099091" />
-      <entry key="M15" value="35.649518237031906" />
-      <entry key="M30" value="35.864202623195425" />
-      <entry key="H1" value="38.781230177567586" />
-      <entry key="H2" value="63.62281503897406" />
-      <entry key="H4" value="125.52388475650883" />
-      <entry key="D1" value="280.5905129863512" />
-      <entry key="W1" value="327.3549704174805" />
+      <entry key="MS100" value="1.5028918865686909" />
+      <entry key="MS500" value="4.5291191137417" />
+      <entry key="S2" value="14.41279957511671" />
+      <entry key="S5" value="26.508945797726685" />
+      <entry key="S10" value="36.07577579147939" />
+      <entry key="S30" value="49.15663504589541" />
+      <entry key="S60" value="54.698696689768816" />
+      <entry key="M2" value="58.08615209142382" />
+      <entry key="M5" value="60.3646760429709" />
+      <entry key="M10" value="61.17010346783071" />
+      <entry key="M15" value="61.44398888828737" />
+      <entry key="M30" value="61.76086284541697" />
+      <entry key="H1" value="64.72632143084977" />
+      <entry key="H2" value="89.58166854510625" />
+      <entry key="H4" value="151.4862558398794" />
+      <entry key="D1" value="306.57712015254356" />
+      <entry key="W1" value="353.3527503379112" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -69,37 +73,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="6.735813931312217E-270" />
-      <entry key="S60" value="2.5953446652250713E-135" />
-      <entry key="M2" value="5.094452537049534E-68" />
-      <entry key="M5" value="1.2101494511800815E-27" />
-      <entry key="M10" value="3.4787202405196146E-14" />
-      <entry key="M15" value="1.0656461070022952E-9" />
-      <entry key="M30" value="3.264423543295659E-5" />
-      <entry key="H1" value="0.005713513405336217" />
-      <entry key="H2" value="0.07558778608569114" />
-      <entry key="H4" value="0.2749323300117511" />
-      <entry key="D1" value="0.806376077922155" />
-      <entry key="W1" value="0.9697241996255568" />
+      <entry key="S30" value="5.901379702671541E-270" />
+      <entry key="S60" value="2.4292755509969555E-135" />
+      <entry key="M2" value="4.928768153399919E-68" />
+      <entry key="M5" value="1.19425029123038E-27" />
+      <entry key="M10" value="3.455792660491053E-14" />
+      <entry key="M15" value="1.0609586353351176E-9" />
+      <entry key="M30" value="3.2572359990260474E-5" />
+      <entry key="H1" value="0.0057072199878978325" />
+      <entry key="H2" value="0.0755461447586693" />
+      <entry key="H4" value="0.274856589440145" />
+      <entry key="D1" value="0.8063390491759119" />
+      <entry key="W1" value="0.9697178381170434" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.105639984846445" />
-      <entry key="MS500" value="5.910422587854674" />
-      <entry key="S2" value="11.714130608362689" />
-      <entry key="S5" value="16.625939555286948" />
-      <entry key="S10" value="20.772572313146682" />
-      <entry key="S30" value="28.02356149240332" />
-      <entry key="S60" value="31.41965679732885" />
-      <entry key="M2" value="33.53529832759345" />
-      <entry key="M5" value="34.96827587442001" />
-      <entry key="M10" value="35.47614087831371" />
-      <entry key="M15" value="35.64897488744591" />
-      <entry key="M30" value="35.86396261020147" />
-      <entry key="H1" value="38.7868017329213" />
-      <entry key="H2" value="63.69830410616396" />
-      <entry key="H4" value="125.79873028669851" />
-      <entry key="D1" value="281.39685816178013" />
-      <entry key="W1" value="328.3246894793388" />
+      <entry key="MS100" value="1.39826083846853" />
+      <entry key="MS500" value="4.474716104324222" />
+      <entry key="S2" value="14.338547340714019" />
+      <entry key="S5" value="26.43714908116953" />
+      <entry key="S10" value="36.02190291500464" />
+      <entry key="S30" value="49.131648602567125" />
+      <entry key="S60" value="54.68495543469896" />
+      <entry key="M2" value="58.07892717865047" />
+      <entry key="M5" value="60.361694674499326" />
+      <entry key="M10" value="61.16859697096725" />
+      <entry key="M15" value="61.44298099938844" />
+      <entry key="M30" value="61.7603895639548" />
+      <entry key="H1" value="64.73176986752667" />
+      <entry key="H2" value="89.65705751373693" />
+      <entry key="H4" value="151.76099639239894" />
+      <entry key="D1" value="307.3834234230874" />
+      <entry key="W1" value="354.3224623414829" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -114,30 +118,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "FastAPI.DiceCalculatorFastAPI.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/kevin/PycharmProjects/DiceCalculatorFastAPI/app/models",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;FastAPI.DiceCalculatorFastAPI.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev-env/DiceCalculatorFastAPI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kevin\PycharmProjects\DiceCalculatorFastAPI\app\models" />
@@ -172,7 +177,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+        <option value="bundled-python-sdk-6fa658e1df1a-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.369" />
       </set>
     </attachedChunks>
   </component>
@@ -188,8 +193,25 @@
       <workItem from="1784589335654" duration="11516000" />
       <workItem from="1784854831733" duration="2909000" />
       <workItem from="1785111405604" duration="2531000" />
-      <workItem from="1785126926805" duration="1887000" />
+      <workItem from="1785126926805" duration="3424000" />
+      <workItem from="1785197419409" duration="320000" />
+      <workItem from="1785197751934" duration="26000" />
+      <workItem from="1785197789034" duration="152000" />
+      <workItem from="1785197987012" duration="103000" />
+      <workItem from="1785384710299" duration="319000" />
+      <workItem from="1785385245710" duration="302000" />
+      <workItem from="1785457413109" duration="798000" />
+      <workItem from="1786261469891" duration="2000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1785135877669</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1785135877669</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +228,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DiceCalculatorFastAPI$DiceCalculatorFastAPI.coverage" NAME="DiceCalculatorFastAPI Coverage Results" MODIFIED="1784533178036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DiceCalculatorFastAPI$DiceCalculatorFastAPI.coverage" NAME="DiceCalculatorFastAPI Coverage Results" MODIFIED="1785385313811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

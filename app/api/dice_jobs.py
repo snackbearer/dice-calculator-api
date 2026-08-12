@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from typing import List
 
-from app.db import get_session
+from app.database import get_session
 from app.schemas.generated_schemas import DiceJobCreate, DiceJobRead
 from app.services.dice_job_service import create_dice_job, get_dice_job, list_dice_jobs, update_dice_job, delete_dice_job
 

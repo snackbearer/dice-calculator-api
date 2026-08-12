@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from typing import List
 
-from app.db import get_session
+from app.database import get_session
 from app.schemas.generated_schemas import (
     MaterialTypeCreate,
     MaterialTypeRead,

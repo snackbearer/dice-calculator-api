@@ -6,3 +6,5 @@ pydantic
 alembic
 pydantic-settings
 python-dotenv
+asyncpg
+boto3
