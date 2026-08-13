@@ -15,6 +15,11 @@ dist/
 
 # dotenv environment variable files
 .env
+.env.*
+!.env.example
+
+# local secrets mounts/files
+secrets/
 
 # Virtual environments
 .venv
@@ -28,6 +33,7 @@ htmlcov/
 .coverage
 .coverage.*
 .pytest_cache/
+__pycache__/
 
 # Type checkers
 .mypy_cache/
