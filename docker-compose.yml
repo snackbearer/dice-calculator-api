@@ -1,3 +1,6 @@
+# FastAPI only. Postgres lives in the dicejobmanager-postgres repo.
+# API: docker compose up -d
+
 services:
   app:
     build:
@@ -5,9 +8,11 @@ services:
       dockerfile: Dockerfile
     container_name: dicejobmanager-app
     restart: unless-stopped
-    # No local postgres dependency: connect to external DB via env/config
     env_file:
       - .env
+    environment:
+      DATABASE_MODE: local
+      DATABASE_URL: postgresql+asyncpg://postgres:postgres@192.168.0.45:5432/dicejobmanager
     secrets:
       - aws_access_key_id
       - aws_secret_access_key
@@ -17,9 +22,6 @@ services:
     volumes:
       - ./:/app
     command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
-
-volumes:
-  dicejobmanager-data:
 
 secrets:
   aws_access_key_id:
