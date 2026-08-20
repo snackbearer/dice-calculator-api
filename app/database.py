@@ -125,7 +125,7 @@ env_database_url = os.getenv("DATABASE_URL")
 if DATABASE_MODE == "aws":
     DATABASE_URL = env_database_url or _build_aws_database_url()
 else:
-    DATABASE_URL = env_database_url or "postgresql+asyncpg://postgres:postgres@localhost:5432/dicejobmanager"
+    DATABASE_URL = env_database_url or "postgresql+asyncpg://postgres:postgres@192.168.0.45:5432/dicejobmanager"
 
 # support psycopg env var by switching to asyncpg driver
 if DATABASE_URL.startswith("postgresql+psycopg"):
