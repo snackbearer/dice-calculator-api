@@ -1,0 +1,25 @@
+name: AI Code Review
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+permissions:
+  contents: read
+  pull-requests: write
+  models: read
+
+jobs:
+  ai-code-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Review pull request
+        uses: anc95/ChatGPT-CodeReview@8bd66227f057f21e847a8c27c9b356c25271d292
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USE_GITHUB_MODELS: true
+          MODEL: openai/gpt-4o
+          LANGUAGE: English
+          PROMPT: Review this pull request for bugs, regressions, security issues, incorrect assumptions, maintainability problems, and missing edge cases. Prioritise actionable findings and avoid stylistic nitpicks.
+          MAX_PATCH_LENGTH: 20000
+          IGNORE_PATTERNS: /node_modules/**/*,*.md,*.lock
