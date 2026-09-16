@@ -1,0 +1,27 @@
+# Third-party dependencies are untrusted AI context
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+
+# Generated/build output
+build/
+dist/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+__pycache__/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Local/editor/cache content
+.git/
+.idea/
+.vscode/
